@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.required_rubygems_version = ">= 1.3.6"
   spec.author = "Aaron Breckenridge"
   spec.email = "aaronbreckenridge@gmail.com"
-  spec.homepage = "http://www.breckenedge.com"
+  spec.homepage = "https://github.com/breckenedge/crowd_support"
   spec.files = Dir['README.md', 'lib/**/*']
   spec.require_path = 'lib'
 end
