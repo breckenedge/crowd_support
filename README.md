@@ -1,1 +1,1 @@
-Solutions to common problems from the crowd.
+Solutions found on Google, StackExchange, etc. that I've needed to use more than once.
