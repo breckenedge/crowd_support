@@ -11,4 +11,5 @@ Gem::Specification.new do |spec|
   spec.homepage = "https://github.com/breckenedge/crowd_support"
   spec.files = Dir['README.md', 'lib/**/*']
   spec.require_path = 'lib'
+  spec.add_development_dependency "rspec"
 end
