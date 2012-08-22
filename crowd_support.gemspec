@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.platform = Gem::Platform::RUBY
-  spec.version = "0.0.1"
+  spec.version = "0.0.2"
   spec.name = "crowd_support"
   spec.summary = "solutions to common problems sourced from the internet"
   spec.description = "Incorporating solutions found on Google, StackExchange, etc. that I've needed to use more than once"
