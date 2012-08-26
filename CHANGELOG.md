@@ -1,3 +1,7 @@
+## 0.0.5 ##
+
+* OK for filenames to have spaces, braces, parens, and brackets.
+
 ## 0.0.4 ##
 
 * Stupidly trying to get Travis CI working. I do appreciate that it's getting me to re-evaluate how I was managing Bundler.
