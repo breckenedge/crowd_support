@@ -1,4 +1,23 @@
 class String
+  # Returns the two digit or four digit numbers in a string that look like they
+  # could be years. Optionally provide an array or range (default 1969 to 2068).
+  #
+  # source: original
+  def detect_years(years = (((Time.now.year - 50).to_s)..((Time.now.year + 49).to_s)))
+    # TODO: Make year 10,000 compliant.
+    years = years.to_a
+    short_years = years.collect { |y| y[2..3] }
+    r = []
+    self.split(/\W+/).each do |substring|
+      if years.include? substring
+        r << substring
+      elsif short_years.include? substring
+        r << years[short_years.index substring]
+      end
+    end
+    r
+  end
+  
   # Returns a filename that doesn't already exist.
   #
   # source: http://www.ruby-forum.com/topic/191831

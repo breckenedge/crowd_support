@@ -1,3 +1,7 @@
+## 0.0.6 ##
+
+* Detection of two and four digit years in text.
+
 ## 0.0.5 ##
 
 * OK for filenames to have spaces, braces, parens, and brackets.
